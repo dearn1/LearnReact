@@ -1,11 +1,18 @@
-import Card from './Card';
-import Button from './Button';
-import Student from './Student';
-import UserGreeting from './UserGreeting';
-import List from './List';
+import ColorPicker from "./ColorPicker";
+//import Card from './Card';
+//import Button from './Button';
+//import Student from './Student';
+//import UserGreeting from './UserGreeting';
+//import List from './List';
 
 function App() {
-const fruits = [
+
+  return (
+    <>
+      <ColorPicker />
+    </>
+  );
+/* const fruits = [
     {id:1, name:'Apple', calories:95},
     {id:2, name:'Orange', calories:105},
     {id:3, name:'Cherry', calories:50},
@@ -38,7 +45,7 @@ const fruits = [
       {fruits.length > 0 && <List items={fruits} category="fruits" />}
       {vegetables.length > 0 && <List items={vegetables} category="vegetables" />}
     </>
-  );
+  ); */
 }
 
 export default App
