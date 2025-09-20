@@ -26,3 +26,39 @@
   font-family: Arial, sans-serif;
   color: hsl(0, 0%, 30%);
 }
+
+.student{
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 50%, 0.8);
+}
+.student p{
+  margin: 0;
+}
+
+.welcome-message {
+  color: green;
+}
+
+.login-prompt {
+  color: red;
+}
+
+.list-category {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.list-items li{
+  margin-left: 20px;
+}
+.list-items li:nth-child(odd) {
+  background-color: hsl(0, 0%, 90%);
+}
+.list-items li:nth-child(even) {
+  background-color: hsl(0, 0%, 95%);
+}
+.list-items li:hover {
+  background-color: hsl(0, 0%, 80%);
+  cursor: pointer;
+}
