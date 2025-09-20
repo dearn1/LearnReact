@@ -105,7 +105,7 @@ input[type="color"]{
   cursor: pointer;
 } */
 
-body {
+/* body {
   background: url(assets/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -113,7 +113,7 @@ body {
   background-attachment: fixed;
   margin: 0;
 
-  /* OPTIONAL */
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,4 +132,67 @@ body {
   text-align: center;
   text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
 
+} */
+
+body {
+  background: url(assets/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stopwatch {
+  backdrop-filter: blur(5px);
+  width: 300px;
+  padding: 20px;
+  border: 2px solid hsl(0, 0%, 80%);
+  border-radius: 15px;
+  background-color: hsla(0, 0%, 0%, 0.3);
+  text-align: center;
+}
+.display {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: monospace;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.75);
+}
+
+.controls button {
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button {
+  background-color: hsl(120, 70%, 40%);
+}
+.start-button:hover {
+  background-color: hsl(120, 70%, 50%);
+}
+.stop-button {
+  background-color: hsl(0, 70%, 40%);
+}
+.stop-button:hover {
+  background-color: hsl(0, 70%, 50%);
+}
+.reset-button {
+  background-color: hsl(240, 70%, 40%);
+}
+.reset-button:hover {
+  background-color: hsl(240, 70%, 50%);
 }

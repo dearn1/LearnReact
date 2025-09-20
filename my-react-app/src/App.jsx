@@ -1,4 +1,5 @@
-import DigitalClock from "./DigitalClock";
+import Stopwatch from "./Stopwatch";
+//import DigitalClock from "./DigitalClock";
 //import ColorPicker from "./ColorPicker";
 //import Card from './Card';
 //import Button from './Button';
@@ -9,10 +10,8 @@ import DigitalClock from "./DigitalClock";
 function App() {
   return (
   <>
-  <DigitalClock />
-  <DigitalClock />
-  <DigitalClock />
-  </> 
+    <Stopwatch />
+  </>
   );
 
 /*   return (
