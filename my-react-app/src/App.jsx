@@ -1,4 +1,5 @@
-import ColorPicker from "./ColorPicker";
+import DigitalClock from "./DigitalClock";
+//import ColorPicker from "./ColorPicker";
 //import Card from './Card';
 //import Button from './Button';
 //import Student from './Student';
@@ -6,12 +7,19 @@ import ColorPicker from "./ColorPicker";
 //import List from './List';
 
 function App() {
-
   return (
+  <>
+  <DigitalClock />
+  <DigitalClock />
+  <DigitalClock />
+  </> 
+  );
+
+/*   return (
     <>
       <ColorPicker />
     </>
-  );
+  ); */
 /* const fruits = [
     {id:1, name:'Apple', calories:95},
     {id:2, name:'Orange', calories:105},
